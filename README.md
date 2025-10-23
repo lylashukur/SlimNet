@@ -1,6 +1,16 @@
 # SlimNet
 Computer vision project that I worked on with two other awesome student developers!
 
+## Project Overview
+SlimNet was built to reduce model size and inference time while maintaining strong accuracy on image classification tasks.
+We compared:
+
+- A baseline **Convolutional Neural Network (CNN)**
+- A **Post-Training Quantized (PTQ)** version
+- A **Quantization-Aware Training (QAT)** version
+
+We visualized performance through heatmaps and confusion matrices to analyze where quantization improved or degraded predictions
+
 ## Instructions for running the SlimNet
 
 Run the first 19 cells individually
